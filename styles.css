@@ -1,0 +1,146 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f8; /* Light gray background */
+    color: #333;
+}
+
+header {
+    background-color: #003366; /* Darker shade of blue */
+    color: white;
+    padding: 20px 0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.logo span {
+    color: #66ccff; /* Light blue accent */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #66ccff; /* Light blue accent */
+}
+
+.hero-section {
+    background-color: #004080; /* Darker blue */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2.5em;
+}
+
+.cta-button {
+    background-color: #ff9900; /* Orange accent */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e68a00; /* Darker orange */
+}
+
+.upload-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.upload-container {
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.drop-area {
+    border: 2px dashed #003366; /* Darker shade of blue */
+    border-radius: 10px;
+    padding: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.drop-area:hover {
+    background-color: #e0f7fa; /* Light blue hover */
+}
+
+.upload-btn {
+    background-color: #003366; /* Darker shade of blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-btn:hover {
+    background-color: #66ccff; /* Light blue accent */
+}
+
+.features-section {
+    padding: 40px 20px;
+    background-color: #f0f8ff; /* Light background */
+    text-align: center;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.feature {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #003366; /* Darker shade of blue */
+    border-radius: 10px;
+    background-color: white;
+}
+
+.footer-content {
+    background-color: #003366; /* Darker shade of blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}

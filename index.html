@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalEase - Simplifying Rental Agreements</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="nav-bar">
+            <h1 class="logo">Legal<span>Ease</span></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#upload">Upload</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#register">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Simplify Your Rental Agreements</h1>
+            <p class="hero-text">Upload, understand, and review your rental agreements quickly and effortlessly with LegalEase.</p>
+            <a href="#upload" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section class="upload-section" id="upload">
+        <h2>Upload Your Document</h2>
+        <p>Drag & Drop your rental agreement below, or click to select a file.</p>
+        <div class="upload-container">
+            <div id="drop-area" class="drop-area">
+                <input type="file" id="fileElem" name="file" accept=".pdf, .docx" style="display:none">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <p>Drop your rental agreements here</p>
+            </div>
+            <button id="fileSelect" class="upload-btn">Upload File</button>
+        </div>
+    </section>
+
+    <!-- Key Functionalities Section -->
+    <section class="features-section">
+        <h2>Key Functionalities</h2>
+        <div class="features-list">
+            <div class="feature">
+                <h3>Text Summarization</h3>
+                <p>Extracts the most important information from lengthy legal documents, providing a concise summary in layman’s terms.</p>
+            </div>
+            <div class="feature">
+                <h3>Highlighting Key Clauses</h3>
+                <p>Identifies and highlights crucial points such as rent terms, termination conditions, penalties, and other critical clauses.</p>
+            </div>
+            <div class="feature">
+                <h3>Explaining Legal Terms</h3>
+                <p>Explains technical legal terms in simple language to make the document more understandable.</p>
+            </div>
+            <div class="feature">
+                <h3>Spotting Red Flags</h3>
+                <p>Identifies potential red flags or unfavorable terms for tenants, such as hidden fees or unreasonable conditions.</p>
+            </div>
+            <div class="feature">
+                <h3>Scam Detection</h3>
+                <p>Flags suspicious or potentially exploitative clauses that could indicate a scam or bad faith terms.</p>
+            </div>
+        </div>
+    </section>
+
+  <!-- Login Section -->
+<section class="login-section" id="login">
+    <h2>Login</h2>
+    <div class="form-container">
+        <form id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" class="form-btn">Login</button>
+        </form>
+        <div id="loginMessage" class="message"></div> <!-- Message area -->
+    </div>
+</section>
+
+   <!-- Registration Section -->
+<section class="register-section" id="register">
+    <h2>Register</h2>
+    <div class="form-container">
+        <form id="registerForm">
+            <label for="reg-username">Username</label>
+            <input type="text" id="reg-username" name="username" required>
+
+            <label for="reg-password">Password</label>
+            <input type="password" id="reg-password" name="password" required>
+
+            <button type="submit" class="form-btn">Register</button>
+        </form>
+        <div id="registerMessage" class="message"></div> <!-- Message area -->
+    </div>
+</section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 LegalEase - Simplifying legal documents for all.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
